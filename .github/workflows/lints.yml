@@ -1,6 +1,8 @@
 on: [push, pull_request]
 
 name: Lints
+permissions:
+  contents: read
 
 jobs:
   lints:
